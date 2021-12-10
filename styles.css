@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+body {
+  background: url("img/candy.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.contenido {
+  display: flex;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-title {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.bg-title h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.productos {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+
+  border-radius: 10px;
+  margin-right: 4px;
+  backdrop-filter: blur(5px);
+}
+
+#codigo {
+  background: transparent;
+  color: #fff;
+}
+
+.actions {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.productos h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+}
+
+.numeros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 340px;
+}
+
+.btn-tecla {
+  width: 100px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-tecla:hover {
+  color: #262626;
+  background: #fff;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-box input {
+  margin-right: 10px;
+}
+
+.input-box-monedas {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.input-box-monedas p {
+  margin: 5px 20px 0 0;
+  color: #fff;
+  font-weight: bold;
+
+  font-size: 20px;
+}
+
+.input-box-monedas input {
+  border-bottom: 1px #fff solid;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+}
+.input-box-dinero {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box-dinero input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.input-box-dinero p {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.catalogo .producto-tarjeta {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  color: #fff;
+}
+
+.catalogo .button-comprar {
+  position: absolute;
+  width: 85px;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+
+.catalogo .button-comprar:hover {
+  background: transparent;
+}
+
+.administrador {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+input {
+  outline: none;
+}
+
+.btns-codigo {
+  display: flex;
+  margin-top: 8px;
+}
+
+#comprar {
+  margin-right: 8px;
+}
+
+.form-modal {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.input-producto {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+
+  outline: none;
+}
+
+.img-tarjeta {
+  object-fit: cover;
+  height: 200px;
+}
+
+.modal-header {
+  color: #fff;
+}
+
+.modal-title {
+  text-align: center;
+  width: 100%;
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+form h2 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.modal-body input[type="text"] {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.form-modal button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.form-modal button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
